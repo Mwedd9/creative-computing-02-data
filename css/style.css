@@ -4,15 +4,21 @@
 
 html {
   margin: 0;
-  padding: 0;
+  padding: 10;
 }
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   width: 100vw;
-  height: 100vh;
-  overflow: hidden;
+  height: 50vh;
+  overflow-wrap: hidden;
+  background-image: url(file:///Users/marywedd/Documents/GitHub/creative-computing-week-05/images/wire%20copy.jpg)
+
+}
+
+div.inline {
+  display:inline-block;
 }
 
 .content {
@@ -26,14 +32,12 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  height: auto;
-  width: auto;
 }
 
 .box {
-  width: 50%;
-  height: 75%;
-  background-color: gray;
+  width: 33.33%;
+  height: 100%;
+  background-color: #28A3F2;
   color: white;
   display: inline-block;
   vertical-align: top;
@@ -41,13 +45,40 @@ body {
 }
 
 .box-content {
-  font-size: 30px;
+  font-size: 36px;
+
 }
 
 .box-1 {
-  background-color: #333;
+  background-color: blue;
+  position: relative;
+  vertical-align: top;
+  width: 100%;
+  height: 70%;
+  background: url(file:///Users/marywedd/Documents/GitHub/creative-computing-week-05/images/notebook%20small.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+
 }
 
 .box-2 {
-  background-color: #777;
+  background-color: #A3DBFF;
+  vertical-align: right;
+  width: 33.33%;
+  height: 70%;
+
 }
+
+.box-3 {
+  background-color:203, 36%, 82%;
+  vertical-align: bottom;
+   width: 90%;
+  height: 100%;
+  padding: 10;
+
+}
+
+
+
+
+
