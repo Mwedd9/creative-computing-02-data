@@ -49,6 +49,10 @@ div.inline {
 
 }
 
+.special-text {
+  font-size: 36px 
+  font: helvetica;
+}
 .box-1 {
   background-color: blue;
   position: relative;
