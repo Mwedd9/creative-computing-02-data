@@ -13,7 +13,7 @@ body {
   width: 100vw;
   height: 50vh;
   overflow-wrap: hidden;
-  background-image: url(file:///Users/marywedd/Documents/GitHub/creative-computing-week-05/images/wire%20copy.jpg)
+  background-image: url(file:///Users/marywedd/Documents/GitHub/creative-computing-02-data/images/wire%20copy.jpg)
 
 }
 
@@ -55,7 +55,7 @@ div.inline {
   vertical-align: top;
   width: 100%;
   height: 70%;
-  background: url(file:///Users/marywedd/Documents/GitHub/creative-computing-week-05/images/notebook%20small.png);
+  background: url(file:///Users/marywedd/Documents/GitHub/creative-computing-02-data/images/notebook%20small.png);
   background-repeat: no-repeat;
   background-size: contain;
 
